@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String NAMA = "Nama";
     public static final String UMUR = "Umur";
     EditText etNama;
+
     EditText etUmur;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
