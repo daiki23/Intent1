@@ -11,10 +11,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.learn.intent1.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextNama"
+        android:hint="nama"/>
+
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/editTextUmur"
+        android:hint="umur"/>
 
     <Button
         android:text="Button"
